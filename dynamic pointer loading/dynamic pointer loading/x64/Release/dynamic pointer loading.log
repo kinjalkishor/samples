@@ -1,0 +1,9 @@
+﻿  con_main.c
+  r_renderer.c
+E:\n\dynamic pointer loading\dynamic pointer loading\r_renderer.c(14,3): warning C4013: 'printf' undefined; assuming extern returning int
+  Generating code
+  0 of 12 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  dynamic pointer loading.vcxproj -> E:\n\dynamic pointer loading\x64\Release\dynamic pointer loading.exe
