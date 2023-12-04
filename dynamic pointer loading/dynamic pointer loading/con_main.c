@@ -18,14 +18,15 @@ int main() {
     printf("Hello, World!\n");
     //printfln("---------------------");
 
-    //renderer_init(RT_D3D11);
-    renderer_init(RT_GL4);
+    struct renderer rs;
+    //renderer_init(&rs, RT_D3D11);
+    renderer_init(&rs, RT_GL4);
 
     rs.init();
     rs.render();
     rs.deinit();
 
-    renderer_deinit();
+    renderer_deinit(&rs);
 
 
     //printfln("---------------------");

@@ -11,8 +11,7 @@ struct renderer {
 	void (*deinit)();
 };
 
-extern struct renderer rs;
 
 // Render System API loading functions.
-renderer_init(enum renderer_type api);
-renderer_deinit();
+renderer_init(struct renderer *rs, enum renderer_type api);
+renderer_deinit(struct renderer *rs);
